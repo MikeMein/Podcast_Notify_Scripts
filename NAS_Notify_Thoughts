@@ -1,0 +1,10 @@
+practical lessons learned from trying out this script
+I mostly used Flow Control branching with if from TLCL chapter 27
+Concepts from Linux in Action Chapter 5 Automated administration: Configuring autoomated offsite backups applied
+  Example script from LiA Chapter 5 relates to TLCL Chapter 33 Flow Control: Looping with for
+  I incorporated the LiA for script example into my if scripting NAS_Notify
+    Specifically the logical implementation of && and || operators in the for loop 
+
+Rewritting the scripts in for loop format may prove usefull/effective
+
+Current script limitation is over-writing initial file download, needs improvement
