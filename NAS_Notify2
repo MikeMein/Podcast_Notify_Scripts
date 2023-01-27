@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Updated attempt at curl notification script Number 2
+
+FILE=~/Development/NAS/rss.xml
+
+if [ -e "$FILE" ]; then
+#	echo "No File"; then
+	curl "https://feeds.noagendaassets.com/noagenda.xml" -o ~/Development/NAS/rss.xml
+fi

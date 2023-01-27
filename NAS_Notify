@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Updated attempt at curl notification script
+
+if [ -e ~/Development/NAS/rss.xml ]; then
+  curl "https://feeds.noagendaassets.com/noagenda.xml" -o ~/Development/NAS/rss.xml
