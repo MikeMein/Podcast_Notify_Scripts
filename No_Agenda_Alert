@@ -5,8 +5,8 @@
 # Podcast URI
 noagenda_rss="https://feeds.noagendaassets.com/noagenda.xml"
 show="~/noagenda.xml"
-current_show="$(curl $noagenda_rss -o ~/noagenda.xml)"
+current_show="$(curl $noagenda_rss -o ~/No Agenda Show)"
 
 if [ ! -e $show ]; then
-  $current_show && echo "Got the show!"
+  $current_show && echo "Hmm, you don't have this podcast yet. Let me goget it for you. Yay! You got the show!"
 fi
