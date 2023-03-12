@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Just practicing scripting
+# Instead of adding this repo to PATH
+# Idea to automate copying a script file to ~/bin
+# Maybe sym-linking could solve this idea?
